@@ -4,11 +4,11 @@ import { UserComponent } from '../components/user.component';
 
 
 
-const routes: Routes = [
+const routes: RoutingModule = [
   { path: '/', component: UserComponent },
 ];
 
 
-export class NameRoutingModule { }
+export class RoutingModule { }
 
-export const routing = [NameComponent];
+export const routing = [RoutingModule];
