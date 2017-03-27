@@ -1,0 +1,13 @@
+<p>Hello i'm {{firstname}} {{familyname}}</p>
+
+<b>Edit</b>
+<form action="">
+    <input type="text" [(ngModel)]="firstname" name="firstname">
+    <br>
+    <input type="text" [(ngModel)]="familyname" name="familyname">
+</form>
+
+
+<div *ngFor="let p of posts">
+    {{p.title}}
+</div>
