@@ -7,7 +7,7 @@ import { UserComponent } from '../components/user.component';
 
 const appRoutes: Routes = [
 
-  { path: '/', component: UserComponent },
+  { path: '', component: UserComponent },
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
